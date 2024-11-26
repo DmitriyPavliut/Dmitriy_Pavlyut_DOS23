@@ -1,0 +1,9 @@
+---
+- name: Run Nginx
+  hosts: dockerservers
+  become: yes
+  vars:
+    docker_network: web_network
+    docker_volume: web_content
+  roles:
+    - nginx
