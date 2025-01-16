@@ -7,4 +7,3 @@
     docker_volume: web_content
   roles:
     - docker
-

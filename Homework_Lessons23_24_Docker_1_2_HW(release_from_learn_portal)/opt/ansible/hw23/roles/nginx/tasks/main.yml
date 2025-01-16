@@ -31,5 +31,3 @@
   ansible.builtin.copy:
     src: "{{ playbook_dir }}/../roles/nginx/files/index.html"
     dest: "/var/lib/docker/volumes/web_volume/_data/index.html"
-
-
